@@ -78,7 +78,6 @@
 .middle_box {
     width: 100%;
     height: 222px;
-    /* border: 1px dashed black; */
     position: absolute;
     top: 100px;
     display: flex;
@@ -163,11 +162,14 @@
     width: 485px;
     height: 360px;
     margin-top: 40px;
-    
+    transition: all 0.2s linear;
     border-radius: 15px;
     margin-left: 140px;
 }
 
+.food_block:hover {
+    transform: scale(1.07);
+}
 .khaana {
     width: 485px;
     height: 344px;
@@ -360,6 +362,10 @@
     font-family: helvetica;
 }
 
+#Share_link:hover {
+    background-color: #b9424e;
+}
+
 #g_a {
     color: #9C9C9C;
     /* font-size: 12px; */
@@ -515,4 +521,7 @@
     font-family: Helvetica;
     font-size: 13px;
 }
+
+
+
 
